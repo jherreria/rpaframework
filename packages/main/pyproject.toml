@@ -35,7 +35,6 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.8.1"
-docutils = "*"
 rpaframework-core = "^11.2.3"
 rpaframework-pdf = "^7.3.0"
 rpaframework-windows = { version = "^7.4.0", platform = "win32" }

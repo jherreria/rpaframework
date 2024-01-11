@@ -7,8 +7,8 @@ https://github.com/robocorp/rpaframework/blob/master/docs/source/contributing/de
 
 # To Build
 ## One time Setup
-1. Have Python  3.9.16 installed : `pip install poetry==1.6.1`
-2. Install Poetry //TODO who did I install it?
+1. Have Python  3.9.16 installed : 
+2. Install Poetry //TODO who did I install it? `pip install poetry==1.6.1`
 3. Install Invoke:  //TODO was `pip install invoke` ?
 
 ### Installing requirements
@@ -17,7 +17,7 @@ Now you are good to go with running these installation commands once from the ro
 ```
 python -m pip install -Ur invocations/requirements.txt
 
-inv install.install-local
+inv install.install
 ```
 ### Building the Poetry venv for the first time in the main package:
 ```
