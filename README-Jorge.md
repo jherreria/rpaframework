@@ -30,6 +30,15 @@ inv install
 cd packages/main
 inv code.test-python
 ```
+## To run a Robot
+```
+cd .env
+poetry shell
+
+cd <robot directory>  #e.g. /Users/jherreri/Documents/RobotExamples/OPEN_SOURCE_APPROVAL_OPEN_GOOGLE_1.00.00
+python -m robot -d ./output transpiled_tasks.robot
+```
+
 
 # What I did
 I followed the installation from Developers Guide and stopped at `PyPI & DevPI` (without doing it)
@@ -37,5 +46,5 @@ https://github.com/robocorp/rpaframework/blob/master/docs/source/contributing/de
 
 
 ## Commands
-## Remove docutils dependenci
+### Remove docutils dependency
          poetry remove docutils
